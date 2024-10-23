@@ -1,0 +1,43 @@
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+h1.logotype {
+    color: rgb(41, 41, 165);
+    font-size: 42px;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+.menu_items {
+    display: flex;
+    align-items: center;
+}
+.menu-item {
+    margin-left: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item:nth-child(1):before {
+    content: "home"; /* Название нужной вам иконки */
+    font-family: "Material Icons";
+    margin-right: 8px;
+}
+.menu-item:nth-child(2):before {
+    content: 'list';
+    font-family: "Material Icons";
+    margin-right: 8px;
+}
+.menu-item:nth-child(3):before {
+    content: 'contacts';
+    font-family: "Material Icons";
+    margin-right: 8px;
+}
